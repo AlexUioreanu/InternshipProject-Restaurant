@@ -1,0 +1,19 @@
+server:
+  port: 9082
+
+spring:
+  h2:
+    console:
+      enabled: true
+
+demo:
+  application:
+    write:
+      paths: src/main/resources/consumed2.txt
+
+keycloak:
+  realm: javatechie
+  auth-server-url: http://localhost:8080/auth
+  resource: springboot-keycloak
+  public-client: true
+  bearer-only: true

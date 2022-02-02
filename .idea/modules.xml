@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RestaurantCatalog/RestaurantCatalog.iml" filepath="$PROJECT_DIR$/RestaurantCatalog/RestaurantCatalog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RestaurantFileWriter/RestaurantFileWriter2.iml" filepath="$PROJECT_DIR$/RestaurantFileWriter/RestaurantFileWriter2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RestaurantOrderInfo/RestaurantOrderInfo.iml" filepath="$PROJECT_DIR$/RestaurantOrderInfo/RestaurantOrderInfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/RestaurantProject.iml" filepath="$PROJECT_DIR$/.idea/RestaurantProject.iml" />
+    </modules>
+  </component>
+</project>

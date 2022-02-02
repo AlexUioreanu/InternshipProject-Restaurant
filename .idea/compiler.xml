@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="RestaurantOrderInfo" />
+        <module name="RestaurantFileWriter2" />
+        <module name="RestaurantCatalog" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="RestaurantCatalog" target="13" />
+      <module name="RestaurantFileWriter" target="11" />
+      <module name="RestaurantFileWriter2" target="11" />
+      <module name="RestaurantOrderInfo" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RestaurantCatalog" options="-parameters" />
+      <module name="RestaurantFileWriter" options="-parameters" />
+      <module name="RestaurantFileWriter2" options="-parameters" />
+      <module name="RestaurantOrderInfo" options="-parameters" />
+    </option>
+  </component>
+</project>

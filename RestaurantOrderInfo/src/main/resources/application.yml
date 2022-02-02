@@ -1,0 +1,19 @@
+server:
+  port: 9081
+
+spring:
+  h2:
+    console:
+      enabled: true
+
+keycloak:
+  realm: javatechie
+  auth-server-url: http://localhost:8080/auth
+  resource: springboot-keycloak
+  public-client: true
+  bearer-only: true
+logging:
+  file:
+    name: c:/Temp/application.log
+
+
